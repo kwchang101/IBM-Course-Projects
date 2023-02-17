@@ -72,7 +72,7 @@ def get_pie_chart(entered_site):
     else:
         fig = px.pie(filtered_df[filtered_df['Launch Site']==entered_site], 
         names='class', 
-        title='Success Proportions on {}'.format(entered_site))
+        title='Success Launch Proportions on {}'.format(entered_site))
         return fig
 
 # TASK 4:
